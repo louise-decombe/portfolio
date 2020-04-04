@@ -21,7 +21,7 @@
 }
 
 .nav:hover  a{
-color:red;
+color:MediumAquaMarine;
 font-size: 150%;
 
 }
@@ -30,13 +30,17 @@ font-size: 150%;
   width: 100%;
 }
 
+a {
+  color:yellow;
+}
+
 main{
-  background-color: blue;
+  background-color: MediumAquaMarine;
 
 }
 
 footer{
-  background-color: blue;
+  background-color: MediumAquaMarine;
 }
 
 
@@ -45,7 +49,7 @@ h1 {
 margin: 2%;
 text-align: right;
 color: white;
-   text-shadow: red 0 -3px;
+   text-shadow: yellow 0 -3px;
 }
 
 img {
@@ -55,7 +59,7 @@ img {
 section {
   font-size: 200%;
   width: 30%;
-  background-color: red;
+  background-color: DarkSeaGreen;
   margin: 2%;
   padding: 3%;
 
@@ -85,11 +89,10 @@ section {
 }
 
 .submain2 img{
-  border: solid 3px;
-  border-style: dotted;
+  border: solid 3px yellow;
+  border-style: dotted ;
   margin: 1%;
 }
-
 
 .back {
   font-size: 250px%;

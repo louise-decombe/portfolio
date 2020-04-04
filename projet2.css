@@ -21,7 +21,7 @@
 }
 
 .nav:hover  a{
-color:red;
+color:Plum;
 font-size: 150%;
 
 }
@@ -31,12 +31,12 @@ font-size: 150%;
 }
 
 main{
-  background-color: blue;
+  background-color: Plum;
 
 }
 
 footer{
-  background-color: blue;
+  background-color: Plum;
 }
 
 
@@ -55,7 +55,7 @@ img {
 section {
   font-size: 200%;
   width: 30%;
-  background-color: red;
+  background-color: pink;
   margin: 2%;
   padding: 3%;
 

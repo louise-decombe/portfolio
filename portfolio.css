@@ -18,7 +18,20 @@
   display: flex;
   justify-content: space-around;
   font-family: 'PT Mono', monospace;
+}
 
+.nav img{
+  width: 40%;
+}
+
+.nav:hover  a{
+color:red;
+font-size: 150%;
+
+}
+
+.nav:hover img{
+  width: 100%;
 }
 
 .img-wrapper {
@@ -36,7 +49,7 @@ img {
   height: auto;
 }
 
-.text_wrapper {
+.text-wrapper {
   opacity: 0;
   transition: 0.5s ease;
   background-color:white;
@@ -51,7 +64,7 @@ img {
 
 }
 
-.img-wrapper:hover .text_wrapper {
+.img-wrapper:hover .text-wrapper {
   opacity: 0.9;
   background-color: red;
   width: 100%;

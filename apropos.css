@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color:     ;
+  text-decoration: none;
+}
+
+
+.nav {
+  margin: 2%;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'PT Mono', monospace;
+}
+
+.nav img{
+  width: 40%;
+}
+
+.nav:hover  a{
+color:red;
+font-size: 150%;
+
+}
+
+.nav:hover img{
+  width: 100%;
+}
+
+
+main{
+}
+
+section{
+  font-family: 'PT Mono', monospace;
+  text-align: center;
+  font-size: 150%;
+
+}
+
+.item {
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: white;
+padding: 2%;
+margin: 2%;
+}
+
+.item img{
+  margin: 2%;
+  justify-content: center;
+
+}

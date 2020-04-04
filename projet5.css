@@ -21,7 +21,7 @@
 }
 
 .nav:hover  a{
-color:red;
+color:DarkTurquoise;
 font-size: 150%;
 
 }
@@ -30,13 +30,13 @@ font-size: 150%;
   width: 100%;
 }
 
-main{
-  background-color: blue;
-
+a {
+  color:Wheat;
 }
 
-footer{
-  background-color: blue;
+main{
+  background-color: DarkTurquoise;
+
 }
 
 
@@ -45,7 +45,7 @@ h1 {
 margin: 2%;
 text-align: right;
 color: white;
-   text-shadow: red 0 -3px;
+   text-shadow: Wheat 0 -3px;
 }
 
 img {
@@ -55,7 +55,7 @@ img {
 section {
   font-size: 200%;
   width: 30%;
-  background-color: red;
+  background-color: Wheat;
   margin: 2%;
   padding: 3%;
 
@@ -85,11 +85,10 @@ section {
 }
 
 .submain2 img{
-  border: solid 3px;
-  border-style: dotted;
+  border: solid 3px Wheat;
+  border-style: dotted ;
   margin: 1%;
 }
-
 
 .back {
   font-size: 250px%;
