@@ -1,51 +1,44 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   text-decoration: none;
-
-
-    font-family: 'PT Mono', monospace;
-
+  font-family: 'PT Mono', monospace;
 }
-
 
 .nav {
   margin: 2%;
   display: flex;
   justify-content: space-around;
-  color:white;
+  color: white;
 }
 
-.nav img{
+.nav img {
   width: 40%;
 }
 
-.nav:hover  a{
-color:Plum;
-font-size: 150%;
-
+.nav:hover a {
+  color: Plum;
+  font-size: 150%;
 }
 
-.nav:hover img{
+.nav:hover img {
   width: 100%;
 }
 
-main{
-  background-color: Plum;
-
-}
-
-footer{
+main {
   background-color: Plum;
 }
 
+footer {
+  background-color: Plum;
+}
 
 h1 {
   font-size: 600%;
-margin: 2%;
-text-align: right;
-color: white;
-   text-shadow: red 0 -3px;
+  margin: 2%;
+  text-align: right;
+  color: white;
+  text-shadow: red 0 -3px;
 }
 
 img {
@@ -58,7 +51,6 @@ section {
   background-color: pink;
   margin: 2%;
   padding: 3%;
-
 }
 
 .main {
@@ -69,27 +61,25 @@ section {
   background-color: white;
 }
 
-
 .submain1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.submain2{
+
+.submain2 {
   display: flex;
   flex-direction: row;
   margin: 3%;
   padding: 2%;
   justify-content: center;
-
 }
 
-.submain2 img{
+.submain2 img {
   border: solid 3px;
   border-style: dotted;
   margin: 1%;
 }
-
 
 .back {
   font-size: 250px%;

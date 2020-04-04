@@ -1,51 +1,44 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   text-decoration: none;
-
-
-    font-family: 'PT Mono', monospace;
-
+  font-family: 'PT Mono', monospace;
 }
-
 
 .nav {
   margin: 2%;
   display: flex;
   justify-content: space-around;
-  color:white;
+  color: white;
 }
 
-.nav img{
+.nav img {
   width: 40%;
 }
 
-.nav:hover  a{
-color:DarkTurquoise;
-font-size: 150%;
-
+.nav:hover a {
+  color: SteelBlue;
+  font-size: 150%;
 }
 
-.nav:hover img{
+.nav:hover img {
   width: 100%;
 }
 
 a {
-  color:Wheat;
+  color: SteelBlue;
 }
 
-main{
-  background-color: DarkTurquoise;
-
+main {
+  background-color: Tomato;
 }
-
 
 h1 {
   font-size: 600%;
-margin: 2%;
-text-align: right;
-color: white;
-   text-shadow: Wheat 0 -3px;
+  margin: 2%;
+  text-align: right;
+  color: white;
+  text-shadow: SteelBlue 0 -3px;
 }
 
 img {
@@ -55,10 +48,9 @@ img {
 section {
   font-size: 200%;
   width: 30%;
-  background-color: Wheat;
+  background-color: SteelBlue;
   margin: 2%;
   padding: 3%;
-
 }
 
 .main {
@@ -69,24 +61,23 @@ section {
   background-color: white;
 }
 
-
 .submain1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.submain2{
+
+.submain2 {
   display: flex;
   flex-direction: row;
   margin: 3%;
   padding: 2%;
   justify-content: center;
-
 }
 
-.submain2 img{
-  border: solid 3px Wheat;
-  border-style: dotted ;
+.submain2 img {
+  border: solid 3px Tomato;
+  border-style: dotted;
   margin: 1%;
 }
 

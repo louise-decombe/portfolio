@@ -5,6 +5,25 @@
   text-decoration: none;
 }
 
+h2 {
+  font-size: 450%;
+  color:white;
+  opacity: 1;
+  font-family: 'PT Mono', monospace;
+
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #585858;
+  font-family: 'PT Mono', monospace;
+}
+
+#top {
+  font-size: 300%;
+}
+
 .main {
   display: flex;
   flex-direction: row;
@@ -72,16 +91,4 @@ img {
 
 .img-wrapper:hover img {
   opacity: 0.5;
-}
-
-h1 {
-  text-align: center;
-  width: 100%;
-  color: #585858;
-  font-family: 'PT Mono', monospace;
-
-}
-
-#top {
-  font-size: 300%;
 }
